@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Speech Recognition</string>
+    <!--公用-->
+    <string name="back">Back</string>
+    <string name="settings">Sets</string>
+    <string name="home">Home</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="me">Mine</string>
+
+
+    <!--登录界面-->
+    <string name="login">Login Page</string>
+    <string name="login_commit">Login</string>
+    <string name="register">Register Account</string>
+
+    <!--注册-->
+    <string name="reg_title">Register Page</string>
+    <string name="sex_female">Female</string>
+    <string name="sex_male">Male</string>
+    <string name="regs">Register</string>
+
+    <!--选择识别模式-->
+    <string name="srm_title">Select Recognition Mode</string>
+    <string name="speechRecog">Real-time Speech Recognition</string>
+    <string name="dfRecog">Voice File Recognition</string>
+
+    <!--实时语音识别--><!--实时语音识别-->
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="textview_display">Speech Recognition</string>
+    <string name="select_language">Please Select Language</string>
+    <string name="select_srmode">Please Select Mode</string>
+    <string name="select_file">Please Select DataFile</string>
+
+
+    <string name="sp_title">Real-time Speech Recognition</string>
+    <string name="longSpeech">Long Speech</string>
+    <string name="shortSpeech">Short Speech</string>
+
+    <string name="df_title">Voice File Recognition</string>
+
+    <!--个人中心--><!--个人信息-->
+    <string name="ps_title">Personal Space</string>
+    <string name="pi_title">Personal Information</string>
+    <string name="photo">Photo</string>
+    <string name="personinfo">Personal Information</string>
+    <string name="chpwd">Change Password</string>
+    <string name="mycoll">My Collection</string>
+    <string name="sex">Sex</string>
+    <string name="address">Address</string>
+    <string name="username">UserName</string>
+    <string name="age">Age</string>
+
+    <!--修改密码-->
+    <string name="cp_title">Change Password</string>
+    <string name="cp_commit">Confirm</string>
+
+    <!--设置-->
+    <string name="settings_title">Settings Center</string>
+    <string name="language">Language</string>
+    <string name="privacy">Privacy</string>
+    <string name="clearCache">Clear Cache</string>
+    <string name="feedback">FeedBack</string>
+    <string name="set_about">About Speech Recognition</string>
+    <string name="logoff">Log Off</string>
+
+
+    <string name="speech_about"> \t This software is suitable for users who need real-time speech recognition and voice file recognition. It supports three languages, including English, Chinese and German.\n
+        \t The software is based on the Microsoft Bing Speech API. It has the advantage of being able to identify more Language, and the recognition rate is high, you can easily meet the needs of most users.\n
+\t Software is simple to use, you can easily get started, and according to the need to switch the required functions, easy to meet the requirements of users.
+</string>
+
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/white6">
+
+    <!--    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="334dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:text="语音识别"
+                android:drawableTop="@drawable/rtrec"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:onClick="micphoneRecog"
+                android:id="@+id/micRecog" />
+
+            <Button
+                android:text="语音文件识别"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:onClick="dfRecog"
+                android:id="@+id/dfRecog" />
+
+        </LinearLayout>-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/rtrec"
+            android:textColor="@color/black"
+            android:text="@string/speechRecog"
+            android:onClick="micphoneRecog"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/filerec"
+            android:textColor="@color/black"
+            android:text="@string/dfRecog"
+            android:onClick="dfRecog"/>
+
+    </RadioGroup>
+
+
+
+    <!--    <Button
+            android:text="对比测试用"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="duibiceshi"
+            android:id="@+id/testcompare" />-->
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/radiobutton_style"
+            android:drawableTop="@drawable/home"
+            android:text="@string/home"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_help"
+            style="@style/radiobutton_style"
+            android:drawableTop="@drawable/help"
+            android:text="@string/help"/>
+
+        <RadioButton
+            android:id="@+id/rb_about"
+            style="@style/radiobutton_style"
+            android:drawableTop="@drawable/about"
+            android:text="@string/about"
+            android:onClick="aboutButton_Click"/>
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            style="@style/radiobutton_style"
+            android:drawableTop="@drawable/person"
+            android:text="@string/me"
+            android:onClick="personalSpaceButton_Click"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
