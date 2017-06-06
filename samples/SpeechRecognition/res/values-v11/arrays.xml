@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>chinese1</item>
+        <item>chinese2</item>
+        <item>english1</item>
+        <item>english2</item>
+        <item>gemany1</item>
+        <item>gemany2</item>
+    </string-array>
+</resources>

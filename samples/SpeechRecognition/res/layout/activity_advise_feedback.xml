@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white4"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/white_editbox_frame"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/oldPwd"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:drawableRight="@drawable/et_delete"
+            android:inputType="text"
+            android:hint="请输入您的意见"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/alterPwd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+
+
+
+
+
+
+</LinearLayout>

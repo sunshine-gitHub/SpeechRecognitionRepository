@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white4"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/white_editbox_frame"
+        android:orientation="vertical" >
+        <com.ecnu.view.ClearEditText
+            android:id="@+id/name"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:drawableRight="@drawable/et_delete"
+            android:hint="UserName"
+            android:maxLength="11"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegray2" />
+        <com.ecnu.view.ClearEditText
+            android:id="@+id/pwd"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/et_delete"
+            android:hint="Password"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegray2" />
+        <com.ecnu.view.ClearEditText
+            android:id="@+id/conpwd"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/et_delete"
+            android:hint="Confirm Password"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegray2" />
+        <com.ecnu.view.ClearEditText
+            android:id="@+id/age"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:drawableRight="@drawable/et_delete"
+            android:hint="Age"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegray2" />
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:text="@string/sex_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:checked="true"
+                android:id="@+id/nan" />
+            <RadioButton
+            android:text="@string/sex_female"
+                android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nv" />
+        </RadioGroup>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/linegray2" />
+        <com.ecnu.view.ClearEditText
+            android:id="@+id/adress"
+            style="@style/edit_cursor_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:drawableRight="@drawable/et_delete"
+            android:hint="Address"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/loading_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/regiscommit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_button"
+        android:text="@string/regs"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>
